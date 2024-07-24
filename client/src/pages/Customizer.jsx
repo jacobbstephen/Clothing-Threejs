@@ -8,8 +8,8 @@ import {download, stylishShirt} from '../assets'
 import {downloadCanvasToImage, reader} from '../config/helpers'
 import {EditorTabs, FilterTabs, DecalTypes} from '../config/constants'
 import { fadeAnimation, slideAnimation } from '../config/motion'
-import { ModelPicker,ColorPicker, CustomButton, Tab, FilePicker } from '../Components'
-import { useModel } from '../Components/ModelContext'
+import { ModelPicker,ColorPicker, CustomButton, Tab, FilePicker } from '../components'
+import { useModel } from '../components/ModelContext'
 
 const Customizer = () => {
   const defaultModel = {name: 'Shirt', path: '/shirt_baked.glb', geometry: 'T_Shirt_male', material: 'lambert1'}
